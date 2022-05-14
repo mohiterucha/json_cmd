@@ -1,0 +1,46 @@
+GET
+{
+    "token": "90939045|-31949284426845631|90940545",
+    "cmd": "GET",
+    "dbName": "Employee",
+    "rel": "Emp-rel",
+    "jsonStr":{
+        "name": "Tom"
+    }
+}
+__________________________________________
+PUT
+
+{
+    "token": "90939045|-31949284426845631|90940545",
+    "cmd": "PUT",
+    "dbName": "Employee",
+    "rel": "Emp-rel",
+   "jsonStr": {
+        "name": "Tom",
+        "email": "tom@gmail.com"
+    }
+}
+_______________________________________________________
+REMOVE
+
+{
+    "token": "90939045|-31949284426845631|90940545",
+    "cmd": "REMOVE",
+    "dbName": "Employee",
+    "rel": "Emp-rel",
+    "record": 2
+}
+____________________________
+UPDATE
+
+{
+    "token": "90939045|-31949284426845631|90940545",
+    "cmd": "UPDATE",
+    "dbName": "Employee",
+    "rel": "Emp-rel",
+   "jsonStr": {
+        "name": "Tom",
+        "email": "tom@gmail.com"
+    }
+}
